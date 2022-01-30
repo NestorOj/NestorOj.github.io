@@ -47,10 +47,42 @@
 								</header>
 								<h2>Bandsaw Blade UX Design</h2>
 								<style>
-									img {
- 									 border: 5px solid #555;
-									}
+								* {
+ 								  box-sizing: border-box;
+								}
+								
+								.column {
+  								  float: left;
+  								  width: 33.33%;
+  								  padding: 5px;
+								}
+								
+								.row::after {
+								  content: "";
+								  clear: both;
+								  display: table;
+								}
+								img {
+ 								 border: 5px solid #555;
+								}
 								</style>
+								
+								<h2>Bandsaw Blade UX Design</h2>
+								<div class="row">
+								  <div class="column">
+								    <img src="images/What%20CAD.jpg" alt="" style="width:100%">
+								    <p><b>What?</b><br /><li>Design a new guide for bandsaw with 30% reduced adjusment time</li</p>
+								  </div>
+ 								  <div class="column">
+ 								   <img src="images/CAD.PNG" alt="" style="width:100%">
+								    <p>How?</p>
+  								  </div>
+ 								  <div class="column">
+    								    <img src="images/pic02.jpg" alt="" style="width:100%">
+								      <p>Results?</p>
+  								  </div>
+								</div>
+
 								<div class="box alt">
 										<div class="row gtr-50 gtr-uniform">
 											<div class="col-4"><span class="image fit"><img src="images/What%20CAD.jpg" alt="" /></span><figcaption><b>What?</b><br /><li>Design a new guide for bandsaw with 30% reduced adjusment time</li></figcaption></div>
