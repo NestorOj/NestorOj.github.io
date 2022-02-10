@@ -1,5 +1,2 @@
-#Images
-
-![](images/Profile.PNG)
-
-![](images/hexagon.PNG)
+Hello,
+My name is Nestor Ojeda and welcome to my website
