@@ -2851,11 +2851,11 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 2rem 0;
-		padding-left: 1rem;
+		padding-left: 10px;
 	}
 
 		ul li {
-			padding-left: 0.5rem;
+			padding-left: 1px;
 		}
 
 		ul.divided {
